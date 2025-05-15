@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct GuppybrainGardenerApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	var body: some Scene {
+		WindowGroup {
+			StartMenuView()
+		}
+		// We'll add the main app WindowGroup later
+	}
 }
